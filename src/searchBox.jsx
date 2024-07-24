@@ -16,7 +16,7 @@ export default function SearchBox({WeatherDetails}){
     let [Error, setError] = useState(false);
 
     let API_KEY = "f1eca83df8d548f8b0f142728242107";
-    let URL = "http://api.weatherapi.com/v1/current.json";
+    let URL = "https://api.weatherapi.com/v1/current.json";
 
    async function GetWeatherInfo(){
        try{
