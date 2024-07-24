@@ -1,0 +1,40 @@
+.StyleContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.ContainerLine{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-direction: row;
+}
+
+.IndividualContainer {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.IndividualContainer span i {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.WeatherCondition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.Location{
+    margin-top: -5px;
+    margin-bottom: 10px;
+}

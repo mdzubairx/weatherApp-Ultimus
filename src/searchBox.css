@@ -1,0 +1,12 @@
+.Image{
+    text-align: center;   
+}
+
+.Image img{
+    width: 200px;
+    height: 200px;
+}
+
+.SearchBoxContainer{
+    border-radius: 60px;
+}
